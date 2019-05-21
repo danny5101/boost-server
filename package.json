@@ -1,0 +1,28 @@
+{
+  "name": "boost-server",
+  "version": "1.0.0",
+  "description": "boost a tiny static web server by NodeJS anywhere anytime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny5101/boost-server.git"
+  },
+  "keywords": [
+    "tiny",
+    "web",
+    "server"
+  ],
+  "author": "Pong Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danny5101/boost-server/issues"
+  },
+  "homepage": "https://github.com/danny5101/boost-server#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.1.2"
+  }
+}
