@@ -17,7 +17,7 @@ function refreshRes(stats, res) {
 
     if (etag) {
         // mtime 需要转成字符串，否则在 windows 环境下会报错
-        res.setHeader('Etag', `${stats.size}-${stats.mtime.toUTCString()}`);
+        res.setHeader('Etag', `${stats.size}-${stats.mtime}`);
     }
 }
 
