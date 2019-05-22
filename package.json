@@ -1,6 +1,6 @@
 {
   "name": "boost-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "boost a tiny static web server by NodeJS anywhere anytime",
   "main": "src/app.js",
   "bin": {
